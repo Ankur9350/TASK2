@@ -9,6 +9,8 @@ const Config = {
   storageBucket: 'chat-web-app-4cd82.appspot.com',
   messagingSenderId: '862160447144',
   appId: '1:862160447144:web:87dd05189747935731c49d',
+  databaseURL:
+    'https://chat-web-app-4cd82-default-rtdb.asia-southeast1.firebasedatabase.app',
 };
 
 const app = firebase.initializeApp(Config);
