@@ -48,7 +48,6 @@ export function usePresence(uid) {
   return presence;
 }
 
-//Hover function
 export function useHover() {
   const [isHovered, setIsHovered] = useState(false);
 
